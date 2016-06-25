@@ -22,6 +22,7 @@
 		D84F32251D1EBE29000587D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D84F32281D1EBE29000587D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D84F322A1D1EBE29000587D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84F32311D1EBE5F000587D0 /* Velocimetro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Velocimetro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		D84F32121D1EBE28000587D0 = {
 			isa = PBXGroup;
 			children = (
+				D84F32301D1EBE3F000587D0 /* Playground */,
 				D84F321D1D1EBE29000587D0 /* Actividad 2 - Velocimetro */,
 				D84F321C1D1EBE29000587D0 /* Products */,
 			);
@@ -62,6 +64,14 @@
 				D84F322A1D1EBE29000587D0 /* Info.plist */,
 			);
 			path = "Actividad 2 - Velocimetro";
+			sourceTree = "<group>";
+		};
+		D84F32301D1EBE3F000587D0 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				D84F32311D1EBE5F000587D0 /* Velocimetro.playground */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
