@@ -2,6 +2,7 @@
 
 import UIKit
 
+// ------------------------ Bloque Enumeración Velocidades -------------------------//
 enum Velocidades : Int {
     case Apagado = 0, VelocidadBaja = 20, VelocidadMedia = 50, VelocidadAlta = 120
     
@@ -10,8 +11,7 @@ enum Velocidades : Int {
     }
 }
 
-Velocidades.VelocidadAlta
-
+// ------------------------------- Bloque Clase Auto -------------------------------//
 class Auto {
     var velocidad : Velocidades
     
@@ -46,7 +46,7 @@ class Auto {
 
 }
 
-
+// ---------------------------------- Bloque Pruebas ----------------------------------//
 var auto : Auto = Auto()
 
 var velocidadActual : Int
